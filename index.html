@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Great Gatsby</title>
+    <meta name="description" content="A classic novel set in the 1920s, exploring themes of wealth, class, and the American Dream">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <section>    
+    <h2>Recent Articles Test</h2>   
+    <table border="1">         
+        <thead>             
+            <tr>                 
+                <th>Article Title</th>                 
+                <th>Publication Date</th>                 
+                <th>Category</th>             
+            </tr>         
+        </thead>         
+        <tbody>             
+            <tr>                 
+                <td><a href="#">Getting Started with HTML</a></td>                 
+                <td>2024-01-15</td>                 
+                <td>Web Development</td>             
+            </tr>             
+            <tr>                 
+                <td><a href="#">Understanding Semantic HTML</a></td>                 
+                <td>2024-02-01</td>                 
+                <td>HTML</td>             
+            </tr>         
+        </tbody>     
+    </table> 
+</section>
+
+    <!-- Header Section -->
+    <header>
+        <h1 class="book-title">The Great Gatsby</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Book Details Section -->
+        <section id="book-details">
+            <h2>Book Details</h2>
+            <p class="author-name">Author: <b><i>F. Scott Fitzgerald</i></b></p>
+            <p class="published-date">Published: 1925</p>
+            <p class="book-genre">Genre: Fiction, Tragedy</p>
+            <p class="book-synopsis">Synopsis: A story set in the Roaring Twenties, exploring the themes of wealth, social class, and the pursuit of the American Dream.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg" alt="Cover image of The Great Gatsby"
+                width="150" title="Gatsby!" loading="lazy">
+            <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby">More about The Great Gatsby</a>
+        </section>
+
+        <!-- Related Themes Section -->
+        <section id="related-themes">
+            <h2>Related Themes</h2>
+            <ul>
+                <li>The American Dream</li>
+                <li>Wealth and Class Disparity</li>
+                <li>Love and Betrayal</li>
+            </ul>
+        </section>
+
+        <!-- Character Guide Section -->
+        <section id="character-guide">
+            <h2>Character Guide for *The Great Gatsby*</h2>
+            <ol>
+                <li>Jay Gatsby - The enigmatic and wealthy protagonist.</li>
+                <li>Nick Carraway - The narrator of the story.</li>
+                <li>Daisy Buchanan - The love interest of Gatsby.</li>
+            </ol>
+        </section>
+
+        <!-- Literary Terms Glossary Section -->
+        <section id="glossary">
+            <h2>Literary Terms Glossary</h2>
+            <dl>
+                <dt>The American Dream</dt>
+                <dd>The cultural concept of achieving success and prosperity through hard work and determination.</dd>
+
+                <dt>Symbolism</dt>
+                <dd>The use of symbols to represent ideas or qualities within the novel, such as the green light or the Valley of Ashes.</dd>
+
+                <dt>Tragedy</dt>
+                <dd>A genre where the main character experiences downfall due to personal flaws or external factors.</dd>
+            </dl>
+        </section>
+
+        <!-- Newsletter Form Section -->
+        <section id="newsletter-form">
+            <h2>Subscribe to *The Great Gatsby* Newsletter</h2>
+            <form action="/subscribe" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+                <fieldset>
+                    <legend>Preferred Topics:</legend>
+                    <label>
+                        <input type="checkbox" name="topics" value="character-analysis">
+                        Character Analysis
+                    </label>
+                    <label>
+                        <input type="checkbox" name="topics" value="symbolism">
+                        Symbolism
+                    </label>
+                    <label>
+                        <input type="checkbox" name="topics" value="historical-context">
+                        Historical Context
+                    </label>
+                </fieldset>
+
+                <label for="interest">Why are you interested in *The Great Gatsby*?</label>
+                <textarea id="interest" name="interest" rows="4" cols="50" placeholder="Tell us why you're interested in *The Great Gatsby*..."></textarea>
+
+                <input type="submit" value="Subscribe">
+            </form>
+        </section>
+
+        <!-- Graphics Section -->
+        <section id="graphics">
+            <h2>The Great Gatsby Cover Design with Canvas</h2>
+            <canvas id="myCanvas" width="300" height="200" style="border:1px solid #000000;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+            <script>
+                const canvas = document.getElementById('myCanvas');
+                const ctx = canvas.getContext('2d');
+                ctx.fillStyle = '#663399'; // A purple shade inspired by The Great Gatsby cover
+                ctx.fillRect(50, 50, 100, 75); // Draws a purple rectangle
+            </script>
+
+            <h2>The Great Gatsby Thematic SVG Illustration</h2>
+            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="50" fill="#663399" />
+                <text x="30" y="120" font-family="Verdana" font-size="16" fill="white">Gatsby</text>
+            </svg>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles">
+            <article>
+                <h2>Exploring the Symbolism in *The Great Gatsby*</h2>
+                <p>The green light, the eyes of Doctor T.J. Eckleburg, and the Valley of Ashes are just a few symbols that permeate *The Great Gatsby*...</p>
+                <summary>Main Highlights:</summary>
+                <ul>
+                    <li>The green light as a symbol of hope and unattainable dreams</li>
+                    <li>The Valley of Ashes as a symbol of decay and moral corruption</li>
+                    <li>Doctor T.J. Eckleburg’s eyes as a symbol of an all-seeing presence</li>
+                </ul>
+            </article>
+        </section>
+        
+        <!-- Related Topics Section -->
+        <aside>
+            <h3>Related Topics</h3>
+            <ul>
+                <li><a href="#symbolism">The Role of Symbolism in Literature</a></li>
+                <li><a href="#american-dream">The American Dream in 1920s Literature</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <a href="index.html">Return to home page</a>
+    </footer>
+
+</body>
+</html>
